@@ -1,0 +1,12 @@
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: calc();
+    justify-content: 45vh;
+    height: calc(100vh - var(--global-margin-top));
+}
+
+.form-group, .form-group label{
+    margin: 8px !important;
+}

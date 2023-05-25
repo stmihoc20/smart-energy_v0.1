@@ -1,0 +1,38 @@
+h1 {
+    padding: 8px;
+    font-size:xx-large;
+    text-align: center ;
+}
+
+.categories {
+    /* height: calc(100vh - var(--global-margin-top)); */
+    text-align: center;
+    padding: 20px;
+}
+
+.cards {
+    display: flexbox;
+    flex-direction: row;
+    background-image: url("../../public/images/categories-background.jpg");
+    background-color: rgb(227, 255, 208);
+    background-size: cover;
+}
+.card {
+    display: inline-block;
+    max-width : 18rem;
+    margin: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-height: 800px;
+}
+
+.default-title {
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  background: papayawhip;
+}
+.card-img-top {
+    image-resolution:initial;
+    height: 250px;
+}

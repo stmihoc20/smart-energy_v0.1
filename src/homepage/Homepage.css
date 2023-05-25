@@ -1,0 +1,39 @@
+#logo {
+    --my-width: 400px;
+    --small-width: 200px;
+    --margin-left: calc(50% - var(--my-width)/2 - var(--global-margin-wrapper));
+    --vertical-center: 40%;
+    width: var(--my-width);
+    max-width: fit-content;
+    top: var(--vertical-center);
+    position: fixed;
+    display: block;
+    margin-left: var(--margin-left);
+    padding: 10px;
+    transition: width 1s, margin-left 1s, top 1s, opacity 1s;
+    z-index: 1;
+}
+
+.content {
+    height: 100vh;
+    position: relative;
+    background-color: whitesmoke;
+    background-size: cover;
+}
+
+.features {
+    display: flexbox;
+    background-image: url("../../public/images/features-background.jpg");
+    background-color: rgb(227, 255, 208);
+    background-size: cover;
+}
+
+.feature-header {
+    background-color: rgb(200, 255, 163);
+    border: 2px solid rgb(58, 255, 74);
+}
+
+.featureSvg {
+    height: 30px;
+    float: left;
+}
